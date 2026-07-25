@@ -1640,9 +1640,28 @@ button:focus {
 /* --------- */
 /* Resume */
 /* --------- */
+.resume-actions {
+  margin: 0.75rem 0 0.5rem;
+}
+
+.resume-download-btn {
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.resume-fallback {
+  color: var(--ink-soft);
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.resume-fallback a {
+  color: var(--accent-bright);
+}
+
 .resume {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
   justify-content: center;
 }
 
